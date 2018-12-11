@@ -19,8 +19,6 @@
         <activity android:name=".DashboardActivity" />
         <activity android:name=".ProgramScheduleActivity" />
         <activity android:name=".DemoActivity" />
-        <activity android:name=".MantradikshyaActivity" />
-        <activity android:name=".SukshmdhyanActivity" />
         <activity android:name=".SearchActivity" />
         <activity android:name=".WardhProgramActivity" />
         <activity android:name=".AshramPranaliActivity" />
@@ -29,7 +27,7 @@
         <activity android:name=".AshramReportActivity" />
         <activity android:name=".AnnualMemberActivity" />
         <activity android:name=".SplashActivity" />
-        <activity android:name=".PersonalInfoActivity"></activity>
+        <activity android:name=".PersonalInfoActivity" />
     </application>
 
 </manifest>
