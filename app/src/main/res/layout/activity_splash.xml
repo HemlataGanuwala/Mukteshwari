@@ -7,9 +7,13 @@
     android:layout_gravity="center"
     android:layout_weight="1"
     android:animateLayoutChanges="true"
-    android:background="@drawable/imgbackcleric"
+    android:background="@color/orange"
     android:orientation="vertical"
     tools:context=".SplashActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/gurupeeth_logo" />
 
 </LinearLayout>

@@ -10,18 +10,11 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:orientation="vertical">
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
         android:layout_weight=".15"
-        android:background="@drawable/white_bluric"
+        android:background="@drawable/bg_blur"
         android:elevation="10dp"
         android:orientation="vertical">
 
@@ -51,6 +44,7 @@
                 android:layout_marginRight="10dp"
                 android:layout_weight=".90"
                 android:background="@drawable/bg_etext"
+                android:paddingLeft="5dp"
                 android:textColor="@color/gray"
                 android:textSize="18sp" />
 
@@ -73,11 +67,13 @@
                 android:textStyle="bold" />
 
             <EditText
+                android:id="@+id/etaddress"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
                 android:layout_weight=".90"
                 android:background="@drawable/bg_etext"
+                android:paddingLeft="5dp"
                 android:textColor="@color/gray"
                 android:textSize="18sp" />
 
@@ -106,6 +102,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight=".90"
                 android:background="@drawable/bg_etext"
+                android:paddingLeft="5dp"
                 android:textColor="@color/gray"
                 android:textSize="18sp" />
 
@@ -128,6 +125,7 @@
                 android:layout_marginRight="10dp"
                 android:layout_weight=".90"
                 android:background="@drawable/bg_etext"
+                android:paddingLeft="5dp"
                 android:textColor="@color/gray"
                 android:textSize="18sp" />
 
@@ -156,6 +154,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight=".90"
                 android:background="@drawable/bg_etext"
+                android:paddingLeft="5dp"
                 android:textColor="@color/gray"
                 android:textSize="18sp" />
 
@@ -178,6 +177,7 @@
                 android:layout_marginRight="10dp"
                 android:layout_weight=".90"
                 android:background="@drawable/bg_etext"
+                android:paddingLeft="5dp"
                 android:textColor="@color/gray"
                 android:textSize="18sp" />
 
@@ -206,6 +206,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight=".90"
                 android:background="@drawable/bg_etext"
+                android:paddingLeft="5dp"
                 android:textColor="@color/gray"
                 android:textSize="18sp" />
 
@@ -242,6 +243,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight=".90"
                 android:background="@drawable/bg_etext"
+                android:paddingLeft="5dp"
                 android:textColor="@color/gray"
                 android:textSize="18sp" />
 
@@ -278,6 +280,7 @@
                 android:layout_marginRight="10dp"
                 android:layout_weight=".70"
                 android:background="@drawable/bg_etext"
+                android:paddingLeft="5dp"
                 android:textColor="@color/gray"
                 android:textSize="18sp" />
 
@@ -307,6 +310,7 @@
                 android:layout_marginRight="10dp"
                 android:layout_weight=".70"
                 android:background="@drawable/bg_etext"
+                android:paddingLeft="5dp"
                 android:textColor="@color/gray"
                 android:textSize="18sp" />
 
@@ -336,6 +340,7 @@
                 android:layout_marginRight="10dp"
                 android:layout_weight=".70"
                 android:background="@drawable/bg_etext"
+                android:paddingLeft="5dp"
                 android:textColor="@color/gray"
                 android:textSize="18sp" />
 
@@ -365,6 +370,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight=".80"
                 android:background="@drawable/bg_etext"
+                android:paddingLeft="5dp"
                 android:textColor="@color/gray"
                 android:textSize="18sp" />
 
@@ -387,6 +393,7 @@
                 android:layout_marginRight="10dp"
                 android:layout_weight=".80"
                 android:background="@drawable/bg_etext"
+                android:paddingLeft="5dp"
                 android:textColor="@color/gray"
                 android:textSize="18sp" />
 
