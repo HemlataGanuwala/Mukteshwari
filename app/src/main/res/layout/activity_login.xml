@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight=".30"
-        android:background="@drawable/login_background_orange"
+        android:background="@drawable/login_background"
         android:orientation="vertical">
 
 
@@ -23,7 +23,7 @@
             android:layout_marginTop="15dp"
             android:text="Mukteshwari"
             android:textAllCaps="true"
-            android:textColor="@color/yellow"
+            android:textColor="@color/pink"
             android:textSize="26sp"
             android:textStyle="bold" />
 
@@ -36,7 +36,7 @@
             android:gravity="right"
             android:text="Gurupeeth"
             android:textAllCaps="true"
-            android:textColor="@color/yellow"
+            android:textColor="@color/blue"
             android:textSize="26sp"
             android:textStyle="bold" />
 

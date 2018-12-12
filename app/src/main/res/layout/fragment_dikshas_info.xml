@@ -10,15 +10,25 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginLeft="5dp"
+        android:layout_marginLeft="10dp"
         android:layout_marginTop="10dp"
-        android:layout_marginRight="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
         android:layout_weight=".15"
-        android:background="@drawable/bg_blur"
-        android:elevation="10dp"
+        android:background="@drawable/bg_rect"
         android:orientation="vertical">
 
         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+
+            <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -28,29 +38,28 @@
                 android:id="@+id/tvdoc"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="5dp"
                 android:layout_marginTop="10dp"
                 android:layout_weight="1"
-                android:text="Date of Dikshya"
-                android:textColor="@color/gray"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+                android:hint="Date of Dikshya"
+                android:textColorHint="@color/gray"
+                android:textSize="16sp" />
 
             <EditText
                 android:id="@+id/etdod"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:layout_marginRight="10dp"
+                android:layout_marginRight="5dp"
                 android:layout_weight=".90"
                 android:background="@drawable/bg_etext"
                 android:paddingLeft="5dp"
                 android:textColor="@color/gray"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
 
         </LinearLayout>
 
-        <LinearLayout
+            <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -60,27 +69,26 @@
                 android:id="@+id/tvannualmember"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="5dp"
                 android:layout_weight="1"
-                android:text="Annual Member"
-                android:textColor="@color/gray"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+                android:hint="Annual Member"
+                android:textColorHint="@color/gray"
+                android:textSize="16sp" />
 
             <EditText
                 android:id="@+id/etannualmember"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="10dp"
+                android:layout_marginRight="5dp"
                 android:layout_weight=".90"
                 android:background="@drawable/bg_etext"
                 android:paddingLeft="5dp"
                 android:textColor="@color/gray"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
 
         </LinearLayout>
 
-        <LinearLayout
+            <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -90,27 +98,26 @@
                 android:id="@+id/tvattempt"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="5dp"
                 android:layout_weight="1"
-                android:text="No of Annual Member Attempt"
-                android:textColor="@color/gray"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+                android:hint="No of Annual Member Attempt"
+                android:textColorHint="@color/gray"
+                android:textSize="16sp" />
 
             <EditText
                 android:id="@+id/etattempt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="10dp"
+                android:layout_marginRight="5dp"
                 android:layout_weight=".90"
                 android:background="@drawable/bg_etext"
                 android:paddingLeft="5dp"
                 android:textColor="@color/gray"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
 
         </LinearLayout>
 
-        <LinearLayout
+            <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -120,27 +127,26 @@
                 android:id="@+id/tvlastintensivedate"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="5dp"
                 android:layout_weight="1"
-                android:text="Last Insentive Date"
-                android:textColor="@color/gray"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+                android:hint="Last Insentive Date"
+                android:textColorHint="@color/gray"
+                android:textSize="16sp" />
 
             <EditText
                 android:id="@+id/etlastinsentivedate"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="10dp"
+                android:layout_marginRight="5dp"
                 android:layout_weight=".90"
                 android:background="@drawable/bg_etext"
                 android:paddingLeft="5dp"
                 android:textColor="@color/gray"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
 
         </LinearLayout>
 
-        <LinearLayout
+            <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -150,27 +156,26 @@
                 android:id="@+id/tvlocation"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="5dp"
                 android:layout_weight="1"
-                android:text="Location"
-                android:textColor="@color/gray"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+                android:hint="Location"
+                android:textColorHint="@color/gray"
+                android:textSize="16sp" />
 
             <EditText
                 android:id="@+id/etlocation"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="10dp"
+                android:layout_marginRight="5dp"
                 android:layout_weight=".90"
                 android:background="@drawable/bg_etext"
                 android:paddingLeft="5dp"
                 android:textColor="@color/gray"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
 
         </LinearLayout>
 
-        <LinearLayout
+            <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -180,27 +185,26 @@
                 android:id="@+id/tvareazone"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="5dp"
                 android:layout_weight="1"
-                android:text="Area of Zone"
-                android:textColor="@color/gray"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+                android:hint="Area of Zone"
+                android:textColorHint="@color/gray"
+                android:textSize="16sp" />
 
             <EditText
                 android:id="@+id/etareazone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="10dp"
+                android:layout_marginRight="5dp"
                 android:layout_weight=".90"
                 android:background="@drawable/bg_etext"
                 android:paddingLeft="5dp"
                 android:textColor="@color/gray"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
 
         </LinearLayout>
 
-        <LinearLayout
+            <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -210,18 +214,17 @@
                 android:id="@+id/tvzonefield"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="5dp"
                 android:layout_weight="1"
-                android:text="Zonal Head"
-                android:textColor="@color/gray"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+                android:hint="Zonal Head"
+                android:textColorHint="@color/gray"
+                android:textSize="16sp" />
 
             <EditText
                 android:id="@+id/etzonalhead"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="10dp"
+                android:layout_marginRight="5dp"
                 android:layout_weight=".90"
                 android:background="@drawable/bg_etext"
                 android:paddingLeft="5dp"
@@ -230,7 +233,7 @@
 
         </LinearLayout>
 
-        <LinearLayout
+            <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -240,27 +243,26 @@
                 android:id="@+id/tvzoneheadno"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="5dp"
                 android:layout_weight="1"
-                android:text="Zonal Head Contact No"
-                android:textColor="@color/gray"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+                android:hint="Zonal Head Contact No"
+                android:textColorHint="@color/gray"
+                android:textSize="16sp" />
 
             <EditText
                 android:id="@+id/etzonalheadno"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="10dp"
+                android:layout_marginRight="5dp"
                 android:layout_weight=".90"
                 android:background="@drawable/bg_etext"
                 android:paddingLeft="5dp"
                 android:textColor="@color/gray"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
 
         </LinearLayout>
 
-        <LinearLayout
+            <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -270,25 +272,34 @@
                 android:id="@+id/tvdestination"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="5dp"
                 android:layout_weight="1"
-                android:text="Destination"
-                android:textColor="@color/gray"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+                android:hint="Destination"
+                android:textColorHint="@color/gray"
+                android:textSize="16sp" />
 
             <EditText
                 android:id="@+id/etdestination"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="10dp"
+                android:layout_marginRight="5dp"
                 android:layout_weight=".90"
                 android:background="@drawable/bg_etext"
                 android:paddingLeft="5dp"
                 android:textColor="@color/gray"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
 
         </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+        </LinearLayout>/
 
     </LinearLayout>
 
