@@ -10,6 +10,7 @@
     <HorizontalScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -35,6 +36,7 @@
                         android:gravity="center"
 
                         android:text="SrNo."
+                        android:textSize="20sp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -44,6 +46,7 @@
                         android:gravity="center"
 
                         android:text="Date"
+                        android:textSize="20sp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -53,6 +56,7 @@
 
                         android:gravity="center"
                         android:text="Place"
+                        android:textSize="20sp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -61,6 +65,7 @@
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:text="Program Vivaran"
+                        android:textSize="20sp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -70,6 +75,7 @@
                         android:gravity="center"
 
                         android:text="Time"
+                        android:textSize="20sp"
                         android:textStyle="bold" />
                 </TableRow>
 
@@ -85,26 +91,30 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="1" />
+                        android:text="1"
+                        android:textSize="18sp" />
 
                     <TextView
                         android:id="@+id/textView11"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="21 Oct 2018" />
+                        android:text="21 Oct 2018"
+                        android:textSize="18sp" />
 
                     <TextView
                         android:id="@+id/textView12"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
+                        android:textSize="18sp"
                         android:text="Pune" />
 
                     <TextView
                         android:id="@+id/textView13"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
                         android:text="Mantridiksha,sukshmadhyan" />
 
                     <TextView
@@ -112,7 +122,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="9.00A.M-2.00P.M." />
+                        android:textSize="18sp"
+                        android:text="9.00AM-2.00PM." />
                 </TableRow>
 
                 <TableRow
@@ -127,6 +138,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
+                        android:textSize="18sp"
                         android:text="2" />
 
                     <TextView
@@ -134,6 +146,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
+                        android:textSize="18sp"
                         android:text="28 Oct 2018" />
 
                     <TextView
@@ -141,12 +154,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
+                        android:textSize="18sp"
                         android:text="Pandharkawda" />
 
                     <TextView
                         android:id="@+id/textView17"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
                         android:text="Mantradiksha" />
 
                     <TextView
@@ -154,7 +169,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="9.00A.M - 2.00P.M" />
+                        android:textSize="18sp"
+                        android:text="9.00AM - 2.00PM" />
                 </TableRow>
 
                 <TableRow
@@ -169,6 +185,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
+                        android:textSize="18sp"
                         android:text="3" />
 
                     <TextView
@@ -176,6 +193,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
+                        android:textSize="18sp"
                         android:text="11 Nov 2018" />
 
                     <TextView
@@ -183,12 +201,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
+                        android:textSize="18sp"
                         android:text="Hingana" />
 
                     <TextView
                         android:id="@+id/textView24"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
                         android:text="Mantradiksha/sukshmadhyan varshik sabhasad" />
 
                     <TextView
@@ -196,7 +216,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="Mantradiksha & sukshmadhyan" />
+                        android:textSize="18sp"
+                        android:text="Mantradiksha and sukshmadhyan" />
                 </TableRow>
 
                 <TableRow
@@ -210,6 +231,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
+                        android:textSize="18sp"
                         android:text="4" />
 
                     <TextView
@@ -217,6 +239,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
+                        android:textSize="18sp"
                         android:text="18 Nov 2018" />
 
                     <TextView
@@ -224,12 +247,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
+                        android:textSize="18sp"
                         android:text="Indor" />
 
                     <TextView
                         android:id="@+id/textView26"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
                         android:text="Mantradiksha/Sukshmadhyan" />
 
                     <TextView
@@ -237,7 +262,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="Mantradiksha & sukshmadhyan" />
+                        android:textSize="18sp"
+                        android:text="Mantradiksha and sukshmadhyan" />
                 </TableRow>
 
                 <TableRow
@@ -251,6 +277,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
+                        android:textSize="18sp"
                         android:text="5" />
 
                     <TextView
@@ -258,6 +285,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
+                        android:textSize="18sp"
                         android:text="23 Nov 2018" />
 
                     <TextView
@@ -265,12 +293,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
+                        android:textSize="18sp"
                         android:text="Mukutban(Wani)" />
 
                     <TextView
                         android:id="@+id/textView34"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
                         android:text="Mantradiksha/Sukshmadhyan" />
 
                     <TextView
@@ -278,7 +308,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="9.00A.M-2.00P.M" />
+                        android:textSize="18sp"
+                        android:text="9.00AM-2.00PM" />
                 </TableRow>
 
                 <TableRow
@@ -291,6 +322,7 @@
                         android:id="@+id/textView39"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
                         android:gravity="center"
                         android:text="6" />
 
@@ -298,6 +330,7 @@
                         android:id="@+id/textView35"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
                         android:gravity="center"
                         android:text="25 Nov 2018" />
 
@@ -305,6 +338,7 @@
                         android:id="@+id/textView37"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
                         android:gravity="center"
                         android:text="Ralegao" />
 
@@ -312,14 +346,16 @@
                         android:id="@+id/textView38"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
                         android:text="Mantradiksha" />
 
                     <TextView
                         android:id="@+id/textView36"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
                         android:gravity="center"
-                        android:text="9.00A.M-2.00P.M" />
+                        android:text="9.00AM-2.00PM" />
                 </TableRow>
 
                 <TableRow
@@ -332,6 +368,7 @@
                         android:id="@+id/textView40"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
                         android:gravity="center"
                         android:text="7" />
 
@@ -339,6 +376,7 @@
                         android:id="@+id/textView44"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
                         android:gravity="center"
                         android:text="02 Dec 2018" />
 
@@ -346,6 +384,7 @@
                         android:id="@+id/textView43"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
                         android:gravity="center"
                         android:text="Gadchandur" />
 
@@ -353,6 +392,7 @@
                         android:id="@+id/textView42"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
                         android:text="Mantradiksha" />
 
                     <TextView
@@ -360,7 +400,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="9.00A.M-2.00P.M" />
+                        android:textSize="18sp"
+                        android:text="9.00AM-2.00PM" />
                 </TableRow>
 
                 <TableRow
@@ -373,6 +414,7 @@
                         android:id="@+id/textView46"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
                         android:gravity="center"
                         android:text="8" />
 
@@ -380,6 +422,7 @@
                         android:id="@+id/textView49"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
                         android:gravity="center"
                         android:text="09 Dec 2018" />
 
@@ -387,6 +430,7 @@
                         android:id="@+id/textView48"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
                         android:gravity="center"
                         android:text="Godpimpari" />
 
@@ -394,14 +438,16 @@
                         android:id="@+id/textView47"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
                         android:text="Mantradiksha" />
 
                     <TextView
                         android:id="@+id/textView45"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
                         android:gravity="center"
-                        android:text="9.00A.M-2.00P.M" />
+                        android:text="9.00AM-2.00PM" />
                 </TableRow>
 
                 <TableRow
@@ -414,6 +460,7 @@
                         android:id="@+id/textView51"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
                         android:gravity="center"
                         android:text="9" />
 
@@ -421,6 +468,7 @@
                         android:id="@+id/textView53"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
                         android:gravity="center"
                         android:text="16 Dec 2018" />
 
@@ -428,6 +476,7 @@
                         android:id="@+id/textView54"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
                         android:gravity="center"
                         android:text="Bhandara(Lakhani)" />
 
@@ -435,14 +484,16 @@
                         android:id="@+id/textView52"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
                         android:text="Mantradiksha" />
 
                     <TextView
                         android:id="@+id/textView50"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
                         android:gravity="center"
-                        android:text="9.00A.M-2.00P.M" />
+                        android:text="9.00AM-2.00PM" />
                 </TableRow>
 
                 <TableRow
@@ -455,6 +506,7 @@
                         android:id="@+id/textView56"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
                         android:gravity="center"
                         android:text="10" />
 
@@ -462,6 +514,7 @@
                         android:id="@+id/textView58"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
                         android:gravity="center"
                         android:text="23 Dec 2018" />
 
@@ -469,6 +522,7 @@
                         android:id="@+id/textView57"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
                         android:gravity="center"
                         android:text="Amravati" />
 
@@ -476,14 +530,16 @@
                         android:id="@+id/textView59"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
                         android:text="Mantradiksha" />
 
                     <TextView
                         android:id="@+id/textView55"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
                         android:gravity="center"
-                        android:text="9.00A.M-2.00P.M" />
+                        android:text="9.00AM-2.00PM" />
                 </TableRow>
 
                 <TableRow
@@ -496,6 +552,7 @@
                         android:id="@+id/textView63"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
                         android:gravity="center"
                         android:text="11" />
 
@@ -503,6 +560,7 @@
                         android:id="@+id/textView61"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
                         android:gravity="center"
                         android:text="25 Dec 2018" />
 
@@ -511,20 +569,23 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
+                        android:textSize="18sp"
                         android:text="Bhadravati" />
 
                     <TextView
                         android:id="@+id/textView62"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
                         android:text="Mantradiksha" />
 
                     <TextView
                         android:id="@+id/textView60"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
                         android:gravity="center"
-                        android:text="9.00A.M-2.00P.M" />
+                        android:text="9.00AM-2.00PM" />
                 </TableRow>
 
                 <TableRow
@@ -537,6 +598,7 @@
                         android:id="@+id/textView67"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
                         android:gravity="center"
                         android:text="12" />
 
@@ -544,6 +606,7 @@
                         android:id="@+id/textView68"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
                         android:gravity="center"
                         android:text="30 Dec 2018" />
 
@@ -551,6 +614,7 @@
                         android:id="@+id/textView69"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
                         android:gravity="center"
                         android:text="Chamorshi/Gadchiroli" />
 
@@ -558,14 +622,16 @@
                         android:id="@+id/textView66"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
                         android:text="Mantradiksha" />
 
                     <TextView
                         android:id="@+id/textView65"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
                         android:gravity="center"
-                        android:text="9.00A.M-2.00P.M" />
+                        android:text="9.00AM-2.00PM" />
                 </TableRow>
 
                 <TableRow
@@ -578,6 +644,7 @@
                         android:id="@+id/textView71"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
                         android:gravity="center"
                         android:text="13" />
 
@@ -585,6 +652,7 @@
                         android:id="@+id/textView72"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
                         android:gravity="center"
                         android:text="06 Jan 2018" />
 
@@ -592,69 +660,474 @@
                         android:id="@+id/textView74"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:gravity="center"
                         android:text="Nagpur" />
 
                     <TextView
                         android:id="@+id/textView73"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
                         android:text="Mantradiksha/Varshik sabhasad shibir" />
 
                 </TableRow>
 
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" >
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp">
 
                     <TextView
                         android:id="@+id/textView76"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:gravity="center"
                         android:text="14" />
 
                     <TextView
                         android:id="@+id/textView78"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:gravity="center"
                         android:text="13 Jan 2018" />
 
                     <TextView
                         android:id="@+id/textView77"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="TextView1" />
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:text="Mumbai" />
 
                     <TextView
                         android:id="@+id/textView75"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="TextView" />
+                        android:textSize="18sp"
+                        android:text="Mantradikshya/Sukshmdhyan" />
                 </TableRow>
 
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:text="15" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:text="20 Jan 2018" />
+
+                    <TextView
+                        android:id="@+id/textView70"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:text="Ghuggus" />
+
+                    <TextView
+                        android:id="@+id/textView79"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="Mantradikshya" />
+
+                    <TextView
+                        android:id="@+id/textView80"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:text="9.00AM- 2.00PM" />
+                </TableRow>
 
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp">
+
+                    <TextView
+                        android:id="@+id/textView81"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:text="16" />
+
+                    <TextView
+                        android:id="@+id/textView82"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:text="27 Jan 2018" />
+
+                    <TextView
+                        android:id="@+id/textView83"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:text="Vani" />
+
+                    <TextView
+                        android:id="@+id/textView84"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="Mantradikshya" />
+
+                    <TextView
+                        android:id="@+id/textView85"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:text="9.00AM-2.00PM" />
+                </TableRow>
 
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp">
+
+                    <TextView
+                        android:id="@+id/textView86"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:text="17" />
+
+                    <TextView
+                        android:id="@+id/textView87"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:text="3 Feb 2018" />
+
+                    <TextView
+                        android:id="@+id/textView88"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:text="Rajura" />
+
+                    <TextView
+                        android:id="@+id/textView89"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="Mantradikshya" />
+
+                    <TextView
+                        android:id="@+id/textView90"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:text="9.00AM-2.00PM" />
+                </TableRow>
 
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp">
+
+                    <TextView
+                        android:id="@+id/textView91"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:text="18" />
+
+                    <TextView
+                        android:id="@+id/textView92"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:text="10 Feb 2018" />
+
+                    <TextView
+                        android:id="@+id/textView93"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:text="Varora" />
+
+                    <TextView
+                        android:id="@+id/textView94"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="Mantradikshya" />
+
+                    <TextView
+                        android:id="@+id/textView95"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:text="9.00AM-2.00PM" />
+                </TableRow>
 
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="18sp"
+                    android:layout_marginRight="5dp">
+
+                    <TextView
+                        android:id="@+id/textView96"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:text="19" />
+
+                    <TextView
+                        android:id="@+id/textView97"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:text="17 Feb 2018" />
+
+                    <TextView
+                        android:id="@+id/textView98"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:text="Bramhapuri" />
+
+                    <TextView
+                        android:id="@+id/textView99"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="Mantradikshya" />
+
+                    <TextView
+                        android:id="@+id/textView100"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:text="9.00AM-2.00PM" />
+                </TableRow>
 
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp">
+
+                    <TextView
+                        android:id="@+id/textView101"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="20" />
+
+                    <TextView
+                        android:id="@+id/textView102"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:text="24 Feb 2018" />
+
+                    <TextView
+                        android:id="@+id/textView103"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:text="Gondiya" />
+
+                    <TextView
+                        android:id="@+id/textView104"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="Mantradikshya" />
+
+                    <TextView
+                        android:id="@+id/textView105"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:text="9.00AM-2.00PM" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp">
+
+                    <TextView
+                        android:id="@+id/textView106"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:text="21" />
+
+                    <TextView
+                        android:id="@+id/textView107"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:text="10 Mar 2018" />
+
+                    <TextView
+                        android:id="@+id/textView108"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:text="Tumsar" />
+
+                    <TextView
+                        android:id="@+id/textView109"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="Mantradikshya" />
+
+                    <TextView
+                        android:id="@+id/textView110"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:text="9.00AM-2.00PM" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp">
+
+                    <TextView
+                        android:id="@+id/textView111"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:text="22" />
+
+                    <TextView
+                        android:id="@+id/textView112"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:text="17 Mar 2018" />
+
+                    <TextView
+                        android:id="@+id/textView113"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:text="Mul Savli" />
+
+                    <TextView
+                        android:id="@+id/textView114"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="Mantradikshya" />
+
+                    <TextView
+                        android:id="@+id/textView115"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:text="9.00AM-2.00PM" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp">
+
+                    <TextView
+                        android:id="@+id/textView116"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:text="23" />
+
+                    <TextView
+                        android:id="@+id/textView117"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:text="24 Mar 2018" />
+
+                    <TextView
+                        android:id="@+id/textView118"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:text="Chimur" />
+
+                    <TextView
+                        android:id="@+id/textView119"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="Mantradiksha" />
+
+                    <TextView
+                        android:id="@+id/textView120"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:text="9.00AM-2.00PM" />
+                </TableRow>
+
             </TableLayout>
+
+
 
         </LinearLayout>
     </HorizontalScrollView>
