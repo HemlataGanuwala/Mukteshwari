@@ -7,9 +7,23 @@
     android:layout_gravity="center"
     android:layout_weight="1"
     android:animateLayoutChanges="true"
-    android:background="@drawable/imgbackcleric"
     android:orientation="vertical"
     tools:context=".SplashActivity">
 
+    <ImageView
+        android:layout_marginTop="100dp"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:src="@drawable/gurupeeth_logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Mukteshwari Gurupeeth"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        android:textSize="28sp"/>
 
 </LinearLayout>
