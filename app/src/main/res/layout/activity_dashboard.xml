@@ -18,43 +18,28 @@
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
-            android:layout_weight="1"
+            android:layout_weight=".90"
             android:orientation="horizontal">
 
-            <EditText
-                android:id="@+id/etsearch"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
                 android:layout_marginLeft="5dp"
-                android:layout_weight=".20"
-                android:background="@drawable/bg_edittext"
-                android:gravity="center_vertical|start"
-                android:hint="Name of Person"
-                android:paddingLeft="10dp"
-                android:singleLine="true"
-                android:textColor="@color/white"
-                android:textColorHint="@color/white"
-                android:textSize="16sp" />
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_edittext" />
 
             <Button
                 android:id="@+id/btnsearch"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_alignRight="@id/etsearch"
+                android:layout_height="50dp"
+                android:layout_alignRight="@id/spinner"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentRight="true"
                 android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginRight="5dp"
-                android:layout_weight="1"
                 android:background="@drawable/icon_search" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:orientation="vertical">
 
         </LinearLayout>
 
@@ -306,7 +291,7 @@
                             android:gravity="center"
                             android:text="Photos/Videos"
                             android:textColor="@color/gray"
-                            android:textSize="14sp"
+                            android:textSize="16sp"
                             android:textStyle="bold" />
 
                     </LinearLayout>
