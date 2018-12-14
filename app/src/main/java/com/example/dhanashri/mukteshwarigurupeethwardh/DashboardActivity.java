@@ -34,6 +34,7 @@ public class DashboardActivity extends AppCompatActivity {
     ArrayList<SpinnerPlanet> namelist = new ArrayList<SpinnerPlanet>();
     ArrayAdapter<String> spinnerAdapter;
     ProgressDialog progressDialog;
+    CardView cardViewprogram;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,10 +44,18 @@ public class DashboardActivity extends AppCompatActivity {
         final GlobalClass globalClass= (GlobalClass)getApplicationContext();
         path=globalClass.getconstr();
 
-
+        cardViewprogram=(CardView) findViewById(R.id.cvpragramschedule);
         search=(Button) findViewById(R.id.btnsearch);
         spinner=(Spinner) findViewById(R.id.spinner);
 
+
+        cardViewprogram.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent= new Intent(DashboardActivity.this,ProgramScheduleActivity.class);
+                startActivity(intent);
+            }
+        });
 
         search.setOnClickListener(new View.OnClickListener() {
             @Override

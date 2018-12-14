@@ -16,13 +16,14 @@ public class ProgramScheduleActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_program_schedule);
 
-        tabLayout = (TabLayout)findViewById(R.id.tabs);
-        tabLayout.setupWithViewPager(viewPager);
         viewPager = (ViewPager)findViewById(R.id.viewpager);
+        tabLayout = (TabLayout)findViewById(R.id.tabs);
 
 
 
-        ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
+
+
+        NewViewPageProgramAdapter adapter = new NewViewPageProgramAdapter(getSupportFragmentManager());
         adapter.AddFragment(new SpecialProgramFragment(),"SpecialProgram");
         adapter.AddFragment(new MantradikshaFragment(),"Mantradiksha");
         adapter.AddFragment(new SukshmdyanFragment(),"Sukshmdyan");
