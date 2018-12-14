@@ -21,93 +21,95 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
+            android:layout_marginLeft="5dp"
             android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp">
-
-            <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/tvtotalfamilymember"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginLeft="5dp"
-                android:layout_marginTop="10dp"
-                android:layout_weight=".80"
-                android:hint="Total Family Member"
-                android:textColorHint="@color/gray"
-                android:textSize="16sp" />
-
-            <EditText
-                android:id="@+id/ettotalfamilymember"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="5dp"
-                android:layout_weight=".85"
-                android:background="@drawable/bg_etext"
-                android:paddingLeft="5dp"
-                android:textColor="@color/gray"
-                android:textSize="18sp" />
-        </LinearLayout>
-
-            <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/tvtotalschedule"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginLeft="5dp"
-                android:layout_weight=".80"
-                android:hint="Total Sadhak"
-                android:textColor="@color/gray"
-                android:textColorHint="@color/gray"
-                android:textSize="16sp" />
-
-            <EditText
-                android:id="@+id/ettotalsadhak"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="5dp"
-                android:layout_weight=".85"
-                android:background="@drawable/bg_etext"
-                android:paddingLeft="5dp"
-                android:textColor="@color/gray"
-                android:textSize="18sp" />
-        </LinearLayout>
-
-            <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight=".60"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp"
             android:orientation="vertical">
 
-                <LinearLayout
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/tvtotalattempts"
+                    android:id="@+id/tvtotalfamilymember"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="5dp"
-                    android:layout_weight=".50"
-                    android:text="Total Attempts"
-                    android:textColor="@color/blue"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:layout_marginTop="10dp"
+                    android:layout_weight=".80"
+                    android:hint="Total Family Member"
+                    android:textColorHint="@color/gray"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/ettotalfamilymember"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight=".85"
+                    android:background="@drawable/bg_etext"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/gray"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvtotalschedule"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight=".80"
+                    android:hint="Total Sadhak"
+                    android:textColor="@color/gray"
+                    android:textColorHint="@color/gray"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/ettotalsadhak"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight=".85"
+                    android:background="@drawable/bg_etext"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/gray"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".60"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvtotalattempts"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight=".55"
+                        android:text="Total Attempts"
+                        android:textColor="@color/blue"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/tvexpected"
@@ -125,133 +127,139 @@
                         android:layout_height="match_parent"
                         android:layout_marginLeft="5dp"
                         android:layout_marginRight="5dp"
-                        android:layout_weight=".89"
+                        android:layout_weight=".87"
                         android:text="Taken"
                         android:textColor="@color/blue"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
-            </LinearLayout>
+                </LinearLayout>
 
                 <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/mahashivratri"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginLeft="5dp"
-                    android:layout_weight=".50"
-                    android:hint="Total Mahashivratri"
-                    android:textColorHint="@color/gray"
-                    android:textSize="16sp" />
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
 
-                <EditText
-                    android:id="@+id/etmahashivratriexpecte"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight=".85"
-                    android:background="@drawable/bg_etext"
-                    android:paddingLeft="5dp"
-                    android:textColor="@color/gray"
-                    android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/mahashivratri"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight=".55"
+                        android:hint="Total Mahashivratri"
+                        android:textColorHint="@color/gray"
+                        android:textSize="16sp" />
 
-                <EditText
-                    android:id="@+id/etmahashivtatritaken"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginRight="5dp"
-                    android:layout_weight=".85"
-                    android:background="@drawable/bg_etext"
-                    android:paddingLeft="5dp"
-                    android:textColor="@color/gray"
-                    android:textSize="18sp" />
+                    <EditText
+                        android:id="@+id/etmahashivratriexpecte"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight=".85"
+                        android:background="@drawable/bg_etext"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/gray"
+                        android:textSize="14sp" />
 
-            </LinearLayout>
+                    <EditText
+                        android:id="@+id/etmahashivtatritaken"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight=".85"
+                        android:background="@drawable/bg_etext"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/gray"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
 
                 <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/tvgurupornima"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginLeft="5dp"
-                    android:layout_weight=".50"
-                    android:hint="Total Gurupornima"
-                    android:textColorHint="@color/gray"
-                    android:textSize="16sp" />
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvgurupornima"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight=".55"
+                        android:hint="Total Gurupornima"
+                        android:textColorHint="@color/gray"
+                        android:textSize="16sp" />
 
 
-                <EditText
-                    android:id="@+id/etgurupornimaexpected"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight=".85"
-                    android:background="@drawable/bg_etext"
-                    android:paddingLeft="5dp"
-                    android:textColor="@color/gray"
-                    android:textSize="18sp" />
+                    <EditText
+                        android:id="@+id/etgurupornimaexpected"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight=".85"
+                        android:background="@drawable/bg_etext"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/gray"
+                        android:textSize="14sp" />
 
-                <EditText
-                    android:id="@+id/etgurupornimataken"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginRight="5dp"
-                    android:layout_weight=".85"
-                    android:background="@drawable/bg_etext"
-                    android:paddingLeft="5dp"
-                    android:textSize="18sp" />
+                    <EditText
+                        android:id="@+id/etgurupornimataken"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight=".85"
+                        android:background="@drawable/bg_etext"
+                        android:paddingLeft="5dp"
+                        android:textSize="14sp" />
 
-            </LinearLayout>
+                </LinearLayout>
 
                 <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/tvnavratri"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginLeft="5dp"
-                    android:layout_weight=".50"
-                    android:hint="Total Navratri"
-                    android:textColorHint="@color/gray"
-                    android:textSize="16sp" />
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
 
-                <EditText
-                    android:id="@+id/etnavratriexpect"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight=".85"
-                    android:background="@drawable/bg_etext"
-                    android:paddingLeft="5dp"
-                    android:textColor="@color/gray"
-                    android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/tvnavratri"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight=".55"
+                        android:hint="Total Navratri"
+                        android:textColorHint="@color/gray"
+                        android:textSize="16sp" />
 
-                <EditText
-                    android:id="@+id/etnavratritaken"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginRight="5dp"
-                    android:layout_weight=".85"
-                    android:background="@drawable/bg_etext"
-                    android:paddingLeft="5dp"
-                    android:textColor="@color/gray"
-                    android:textSize="18sp" />
+                    <EditText
+                        android:id="@+id/etnavratriexpect"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight=".85"
+                        android:background="@drawable/bg_etext"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/gray"
+                        android:textSize="14sp" />
 
-            </LinearLayout>
+                    <EditText
+                        android:id="@+id/etnavratritaken"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight=".85"
+                        android:background="@drawable/bg_etext"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/gray"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -265,7 +273,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="5dp"
-                        android:layout_weight=".50"
+                        android:layout_weight=".55"
                         android:hint="Total Local"
                         android:textColorHint="@color/gray"
                         android:textSize="16sp" />
@@ -273,24 +281,26 @@
                     <EditText
                         android:id="@+id/etlocalexpected"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="5dp"
                         android:layout_weight=".85"
                         android:background="@drawable/bg_etext"
                         android:paddingLeft="5dp"
                         android:textColor="@color/gray"
-                        android:textSize="18sp" />
+                        android:textSize="14sp" />
 
                     <EditText
                         android:id="@+id/etlocaltaken"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_marginLeft="5dp"
                         android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
                         android:layout_weight=".85"
                         android:background="@drawable/bg_etext"
                         android:paddingLeft="5dp"
                         android:textColor="@color/gray"
-                        android:textSize="18sp" />
+                        android:textSize="14sp" />
 
                 </LinearLayout>
 
@@ -316,19 +326,22 @@
                 <EditText
                     android:id="@+id/etstatus"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
                     android:layout_weight=".85"
                     android:background="@drawable/bg_etext"
                     android:paddingLeft="5dp"
                     android:textColor="@color/gray"
-                    android:textSize="18sp" />
+                    android:textColorLink="@color/gray"
+                    android:textSize="14sp" />
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight=".90"
+                android:layout_weight="1"
                 android:orientation="horizontal"></LinearLayout>
 
 
