@@ -55,7 +55,7 @@ public class TotalPersonInfoFragment extends Fragment {
         editTexttotal_gurupornima_expected=(EditText)view.findViewById(R.id.etgurupornimaexpected);
         editTexttotal_gurupormina_taken=(EditText)view.findViewById(R.id.etgurupornimataken);
         editTexttotal_navratri_expected=(EditText)view.findViewById(R.id.etnavratriexpect);
-        editTexttotal_family_member=(EditText)view.findViewById(R.id.etnavratritaken);
+        editTexttotal_naratri_taken=(EditText)view.findViewById(R.id.etnavratritaken);
         editTexttotal_local_expected=(EditText)view.findViewById(R.id.etlocalexpected);
         editTexttotal_local_taken=(EditText)view.findViewById(R.id.etlocaltaken);
         editText_status=(EditText)view.findViewById(R.id.etstatus);
@@ -124,6 +124,7 @@ public class TotalPersonInfoFragment extends Fragment {
                         total_gurupormina_taken= a1.getString("gurupurnimaatmpt");
                         total_navratri_expected= a1.getString("navtratritotal");
                         total_naratri_taken= a1.getString("navtratriatmpt");
+                        total_local_expected= a1.getString("totalattempts");
                         status= a1.getString("status");
 
 
@@ -156,7 +157,6 @@ public class TotalPersonInfoFragment extends Fragment {
             editTexttotal_navratri_expected.setText(total_navratri_expected);
             editTexttotal_naratri_taken.setText(total_naratri_taken);
             editTexttotal_local_expected.setText(total_local_expected);
-            editTexttotal_local_taken.setText(total_local_taken);
             editText_status.setText(status);
 
 

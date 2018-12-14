@@ -117,7 +117,7 @@ public class DikshasInfoFragment extends Fragment {
                         dod= a1.getString("dateofdiksha");
                         annual_member= a1.getString("anuualmember");
                         no_of_annual_attempt= a1.getString("noofattempt");
-                        last_insentive_date= a1.getString("lastintensivedat");
+                        last_insentive_date= a1.getString("lastintensivedate");
                         location= a1.getString("intensivelocation");
                         area_of_zone= a1.getString("areofzone");
                         zonal_head= a1.getString("zonalhead");

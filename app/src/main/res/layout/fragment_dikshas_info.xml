@@ -41,6 +41,7 @@
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="5dp"
                     android:layout_weight="1"
+                    android:gravity="center"
                     android:hint="Date of Dikshya"
                     android:textColorHint="@color/gray"
                     android:textSize="16sp" />
@@ -54,6 +55,7 @@
                     android:layout_marginBottom="5dp"
                     android:layout_weight=".90"
                     android:background="@drawable/bg_etext"
+                    android:gravity="center"
                     android:paddingLeft="5dp"
                     android:textColor="@color/gray"
                     android:textSize="14sp" />
@@ -72,6 +74,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginLeft="5dp"
                     android:layout_weight="1"
+                    android:gravity="center"
                     android:hint="Annual Member"
                     android:textColorHint="@color/gray"
                     android:textSize="16sp" />
@@ -84,6 +87,7 @@
                     android:layout_marginBottom="5dp"
                     android:layout_weight=".90"
                     android:background="@drawable/bg_etext"
+                    android:gravity="center"
                     android:paddingLeft="5dp"
                     android:textColor="@color/gray"
                     android:textSize="14sp" />
@@ -102,6 +106,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginLeft="5dp"
                     android:layout_weight="1"
+                    android:gravity="center"
                     android:hint="No of Annual Member Attempt"
                     android:textColorHint="@color/gray"
                     android:textSize="16sp" />
@@ -114,6 +119,7 @@
                     android:layout_marginBottom="5dp"
                     android:layout_weight=".90"
                     android:background="@drawable/bg_etext"
+                    android:gravity="center"
                     android:paddingLeft="5dp"
                     android:textColor="@color/gray"
                     android:textSize="14sp" />
@@ -132,6 +138,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginLeft="5dp"
                     android:layout_weight="1"
+                    android:gravity="center"
                     android:hint="Last Insentive Date"
                     android:textColorHint="@color/gray"
                     android:textSize="16sp" />
@@ -144,6 +151,7 @@
                     android:layout_marginBottom="5dp"
                     android:layout_weight=".90"
                     android:background="@drawable/bg_etext"
+                    android:gravity="center"
                     android:paddingLeft="5dp"
                     android:textColor="@color/gray"
                     android:textSize="14sp" />
@@ -162,6 +170,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginLeft="5dp"
                     android:layout_weight="1"
+                    android:gravity="center"
                     android:hint="Location"
                     android:textColorHint="@color/gray"
                     android:textSize="16sp" />
@@ -174,6 +183,7 @@
                     android:layout_marginBottom="5dp"
                     android:layout_weight=".90"
                     android:background="@drawable/bg_etext"
+                    android:gravity="center"
                     android:paddingLeft="5dp"
                     android:textColor="@color/gray"
                     android:textSize="14sp" />
@@ -192,6 +202,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginLeft="5dp"
                     android:layout_weight="1"
+                    android:gravity="center"
                     android:hint="Area of Zone"
                     android:textColorHint="@color/gray"
                     android:textSize="16sp" />
@@ -204,6 +215,7 @@
                     android:layout_marginBottom="5dp"
                     android:layout_weight=".90"
                     android:background="@drawable/bg_etext"
+                    android:gravity="center"
                     android:paddingLeft="5dp"
                     android:textColor="@color/gray"
                     android:textSize="14sp" />
@@ -222,6 +234,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginLeft="5dp"
                     android:layout_weight="1"
+                    android:gravity="center"
                     android:hint="Zonal Head"
                     android:textColorHint="@color/gray"
                     android:textSize="16sp" />
@@ -234,6 +247,7 @@
                     android:layout_marginBottom="5dp"
                     android:layout_weight=".90"
                     android:background="@drawable/bg_etext"
+                    android:gravity="center"
                     android:paddingLeft="5dp"
                     android:textColor="@color/gray"
                     android:textSize="14sp" />
@@ -252,6 +266,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginLeft="5dp"
                     android:layout_weight="1"
+                    android:gravity="center"
                     android:hint="Zonal Head Contact No"
                     android:textColorHint="@color/gray"
                     android:textSize="16sp" />
@@ -264,6 +279,7 @@
                     android:layout_marginBottom="5dp"
                     android:layout_weight=".90"
                     android:background="@drawable/bg_etext"
+                    android:gravity="center"
                     android:paddingLeft="5dp"
                     android:textColor="@color/gray"
                     android:textSize="14sp" />
@@ -282,7 +298,8 @@
                     android:layout_height="match_parent"
                     android:layout_marginLeft="5dp"
                     android:layout_weight="1"
-                    android:hint="Destination"
+                    android:gravity="center"
+                    android:hint="Designation"
                     android:textColorHint="@color/gray"
                     android:textSize="16sp" />
 
@@ -294,6 +311,7 @@
                     android:layout_marginBottom="5dp"
                     android:layout_weight=".90"
                     android:background="@drawable/bg_etext"
+                    android:gravity="center"
                     android:paddingLeft="5dp"
                     android:textColor="@color/gray"
                     android:textSize="14sp" />
