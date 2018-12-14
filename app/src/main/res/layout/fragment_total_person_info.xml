@@ -13,9 +13,10 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="10dp"
         android:layout_weight=".10"
         android:background="@drawable/bg_rect"
+        android:elevation="8dp"
         android:orientation="vertical">
 
         <LinearLayout
@@ -38,8 +39,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="5dp"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="5dp"
                     android:layout_weight=".80"
+                    android:gravity="center"
                     android:hint="Total Family Member"
                     android:textColorHint="@color/gray"
                     android:textSize="16sp" />
@@ -48,11 +50,12 @@
                     android:id="@+id/ettotalfamilymember"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="5dp"
                     android:layout_marginRight="5dp"
                     android:layout_marginBottom="5dp"
                     android:layout_weight=".85"
                     android:background="@drawable/bg_etext"
+                    android:gravity="center"
                     android:paddingLeft="5dp"
                     android:textColor="@color/gray"
                     android:textSize="14sp" />
@@ -70,6 +73,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginLeft="5dp"
                     android:layout_weight=".80"
+                    android:gravity="center"
                     android:hint="Total Sadhak"
                     android:textColor="@color/gray"
                     android:textColorHint="@color/gray"
@@ -83,6 +87,7 @@
                     android:layout_marginBottom="5dp"
                     android:layout_weight=".85"
                     android:background="@drawable/bg_etext"
+                    android:gravity="center"
                     android:paddingLeft="5dp"
                     android:textColor="@color/gray"
                     android:textSize="14sp" />
@@ -106,6 +111,7 @@
                         android:layout_height="match_parent"
                         android:layout_marginLeft="5dp"
                         android:layout_weight=".55"
+                        android:gravity="center"
                         android:text="Total Attempts"
                         android:textColor="@color/blue"
                         android:textSize="20sp"
@@ -116,6 +122,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight=".85"
+                        android:gravity="center"
                         android:text="Expecte"
                         android:textColor="@color/blue"
                         android:textSize="20sp"
@@ -128,6 +135,7 @@
                         android:layout_marginLeft="5dp"
                         android:layout_marginRight="5dp"
                         android:layout_weight=".87"
+                        android:gravity="center"
                         android:text="Taken"
                         android:textColor="@color/blue"
                         android:textSize="20sp"
@@ -147,6 +155,7 @@
                         android:layout_height="match_parent"
                         android:layout_marginLeft="5dp"
                         android:layout_weight=".55"
+                        android:gravity="center"
                         android:hint="Total Mahashivratri"
                         android:textColorHint="@color/gray"
                         android:textSize="16sp" />
@@ -158,6 +167,7 @@
                         android:layout_marginBottom="5dp"
                         android:layout_weight=".85"
                         android:background="@drawable/bg_etext"
+                        android:gravity="center"
                         android:paddingLeft="5dp"
                         android:textColor="@color/gray"
                         android:textSize="14sp" />
@@ -171,6 +181,7 @@
                         android:layout_marginBottom="5dp"
                         android:layout_weight=".85"
                         android:background="@drawable/bg_etext"
+                        android:gravity="center"
                         android:paddingLeft="5dp"
                         android:textColor="@color/gray"
                         android:textSize="14sp" />
@@ -189,6 +200,7 @@
                         android:layout_height="match_parent"
                         android:layout_marginLeft="5dp"
                         android:layout_weight=".55"
+                        android:gravity="center"
                         android:hint="Total Gurupornima"
                         android:textColorHint="@color/gray"
                         android:textSize="16sp" />
@@ -201,6 +213,7 @@
                         android:layout_marginBottom="5dp"
                         android:layout_weight=".85"
                         android:background="@drawable/bg_etext"
+                        android:gravity="center"
                         android:paddingLeft="5dp"
                         android:textColor="@color/gray"
                         android:textSize="14sp" />
@@ -214,6 +227,7 @@
                         android:layout_marginBottom="5dp"
                         android:layout_weight=".85"
                         android:background="@drawable/bg_etext"
+                        android:gravity="center"
                         android:paddingLeft="5dp"
                         android:textSize="14sp" />
 
@@ -231,6 +245,7 @@
                         android:layout_height="match_parent"
                         android:layout_marginLeft="5dp"
                         android:layout_weight=".55"
+                        android:gravity="center"
                         android:hint="Total Navratri"
                         android:textColorHint="@color/gray"
                         android:textSize="16sp" />
@@ -242,6 +257,7 @@
                         android:layout_marginBottom="5dp"
                         android:layout_weight=".85"
                         android:background="@drawable/bg_etext"
+                        android:gravity="center"
                         android:paddingLeft="5dp"
                         android:textColor="@color/gray"
                         android:textSize="14sp" />
@@ -255,6 +271,7 @@
                         android:layout_marginBottom="5dp"
                         android:layout_weight=".85"
                         android:background="@drawable/bg_etext"
+                        android:gravity="center"
                         android:paddingLeft="5dp"
                         android:textColor="@color/gray"
                         android:textSize="14sp" />
@@ -274,6 +291,7 @@
                         android:layout_height="match_parent"
                         android:layout_marginLeft="5dp"
                         android:layout_weight=".55"
+                        android:gravity="center"
                         android:hint="Total Local"
                         android:textColorHint="@color/gray"
                         android:textSize="16sp" />
@@ -285,6 +303,7 @@
                         android:layout_marginBottom="5dp"
                         android:layout_weight=".85"
                         android:background="@drawable/bg_etext"
+                        android:gravity="center"
                         android:paddingLeft="5dp"
                         android:textColor="@color/gray"
                         android:textSize="14sp" />
@@ -298,6 +317,7 @@
                         android:layout_marginBottom="5dp"
                         android:layout_weight=".85"
                         android:background="@drawable/bg_etext"
+                        android:gravity="center"
                         android:paddingLeft="5dp"
                         android:textColor="@color/gray"
                         android:textSize="14sp" />
@@ -319,6 +339,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginLeft="5dp"
                     android:layout_weight=".80"
+                    android:gravity="center"
                     android:hint="Status"
                     android:textColorHint="@color/gray"
                     android:textSize="16sp" />
@@ -331,6 +352,7 @@
                     android:layout_marginBottom="5dp"
                     android:layout_weight=".85"
                     android:background="@drawable/bg_etext"
+                    android:gravity="center"
                     android:paddingLeft="5dp"
                     android:textColor="@color/gray"
                     android:textColorLink="@color/gray"
@@ -341,7 +363,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
+                android:layout_weight=".85"
                 android:orientation="horizontal"></LinearLayout>
 
 
