@@ -34,7 +34,7 @@ public class DashboardActivity extends AppCompatActivity {
     ArrayList<SpinnerPlanet> namelist = new ArrayList<SpinnerPlanet>();
     ArrayAdapter<String> spinnerAdapter;
     ProgressDialog progressDialog;
-    CardView cardViewprogram;
+    CardView cardViewprogram, cardViewanuualmember;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,6 +45,7 @@ public class DashboardActivity extends AppCompatActivity {
         path=globalClass.getconstr();
 
         cardViewprogram=(CardView) findViewById(R.id.cvpragramschedule);
+        cardViewanuualmember=(CardView)findViewById(R.id.cvannualmember);
         search=(Button) findViewById(R.id.btnsearch);
         spinner=(Spinner) findViewById(R.id.spinner);
 
@@ -52,7 +53,15 @@ public class DashboardActivity extends AppCompatActivity {
         cardViewprogram.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent= new Intent(DashboardActivity.this,ProgramScheduleActivity.class);
+                Intent intent= new Intent(DashboardActivity.this, ProgramScheduleActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        cardViewanuualmember.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent= new Intent(DashboardActivity.this, AnnualMemberActivity.class);
                 startActivity(intent);
             }
         });
@@ -97,6 +106,8 @@ public class DashboardActivity extends AppCompatActivity {
             progressDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
             progressDialog.setProgress(0);
             progressDialog.show();
+            progressDialog.setCancelable(false);
+            progressDialog.setCanceledOnTouchOutside(false);
         }
 
         @Override

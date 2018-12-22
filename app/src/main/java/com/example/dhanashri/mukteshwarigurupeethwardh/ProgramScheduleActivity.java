@@ -19,10 +19,6 @@ public class ProgramScheduleActivity extends AppCompatActivity {
         viewPager = (ViewPager)findViewById(R.id.viewpager);
         tabLayout = (TabLayout)findViewById(R.id.tabs);
 
-
-
-
-
         NewViewPageProgramAdapter adapter = new NewViewPageProgramAdapter(getSupportFragmentManager());
         adapter.AddFragment(new SpecialProgramFragment(),"SpecialProgram");
         adapter.AddFragment(new MantradikshaFragment(),"Mantradiksha");
