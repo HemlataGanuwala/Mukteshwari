@@ -14,8 +14,7 @@
         android:layout_marginBottom="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="10dp"
-        android:elevation="8dp">
+        android:layout_marginTop="10dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -33,18 +32,20 @@
                 android:orientation="horizontal">
 
                 <ImageView
+                    android:id="@+id/imgview1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
-                    android:background="@drawable/bg_etext" />
+                    android:src="@drawable/snehal" />
 
                 <ImageView
+                    android:id="@+id/imgview2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
-                    android:background="@drawable/bg_etext" />
+                    android:src="@drawable/sayuja" />
 
             </LinearLayout>
 
@@ -55,18 +56,18 @@
                 android:orientation="horizontal">
 
                 <ImageView
+                    android:id="@+id/imgview3"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_margin="5dp"
-                    android:layout_weight="1"
-                    android:background="@drawable/bg_etext" />
+                    android:layout_weight="1" />
 
                 <ImageView
+                    android:id="@+id/imgview4"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_margin="5dp"
-                    android:layout_weight="1"
-                    android:background="@drawable/bg_etext" />
+                    android:layout_weight="1" />
 
             </LinearLayout>
 
@@ -77,13 +78,13 @@
                 android:orientation="vertical">
 
                 <ImageView
+                    android:id="@+id/imgview5"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="70dp"
                     android:layout_marginRight="70dp"
                     android:layout_marginBottom="5dp"
-                    android:layout_weight="1"
-                    android:background="@drawable/bg_etext" />
+                    android:layout_weight="1" />
 
             </LinearLayout>
 

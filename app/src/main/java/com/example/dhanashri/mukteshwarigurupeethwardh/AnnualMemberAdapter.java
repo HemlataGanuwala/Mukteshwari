@@ -111,7 +111,7 @@ public class AnnualMemberAdapter extends ArrayAdapter<AnnualMemberPlanet> implem
                 results.count = origPlanetList.size();
             }
             else {
-                String prefixString = constraint.toString().toLowerCase();
+                String prefixString = constraint.toString();
                 List<AnnualMemberPlanet> nPlanetList = new ArrayList<AnnualMemberPlanet>();
                 List<AnnualMemberPlanet> nPlanetListlocal = new ArrayList<AnnualMemberPlanet>();
                 nPlanetListlocal.addAll(origPlanetList);
@@ -120,20 +120,20 @@ public class AnnualMemberAdapter extends ArrayAdapter<AnnualMemberPlanet> implem
 
                 for (int i = 0; i < count; i++) {
                     final AnnualMemberPlanet item = nPlanetListlocal.get(i);
-                    final String itemName = item.getNAME().toLowerCase();
 
-                    if (itemName.contains(prefixString)) {
-                        nPlanetList.add(item);
-                    }
-                    else { }
+//                    final String itemName = item.getNAME().toLowerCase();
+//                    if (itemName.contains(prefixString)) {
+//                        nPlanetList.add(item);
+//                    }
+//                    else { }
 
 
-                    final String itemMobileno = item.getMOBILE_NO()
-                            .toLowerCase();
-                    if (itemMobileno.contains(prefixString)) {
-                        nPlanetList.add(item);
-                    }
-                    else { }
+//                    final String itemMobileno = item.getMOBILE_NO()
+//                            .toLowerCase();
+//                    if (itemMobileno.contains(prefixString)) {
+//                        nPlanetList.add(item);
+//                    }
+//                    else { }
 
                     final String itemCity = item.getCITY();
                     if (itemCity.contains(prefixString)) {
@@ -164,6 +164,76 @@ public class AnnualMemberAdapter extends ArrayAdapter<AnnualMemberPlanet> implem
 
         }
     }
+
+//    @Override
+//    public Filter getFilter() {
+//        if (filter == null) {
+//            filter = new AddressFilter();
+//        }
+//        return filter;
+//    }
+
+
+
+// InnerClass for enabling Search feature by implementing the methods
+
+//    private class AddressFilter extends Filter
+//    {
+//
+//        @Override
+//        protected FilterResults performFiltering(CharSequence constraint) {
+//
+////below checks the match for the cityId and adds to the filterlist
+//            FilterResults results = new FilterResults();
+////            // We implement here the filter logic
+//            if (constraint == null || constraint.length() == 0) {
+//                // No filter implemented we return all the list
+//                results.values = origPlanetList;
+//                results.count = origPlanetList.size();
+//            }
+//            else {
+//                //String prefixString = constraint.toString().toLowerCase();
+//
+//
+//                String city = constraint.toString();
+////                FilterResults results1 = new FilterResults();
+//
+//                if (city != null) {
+//                    List<AnnualMemberPlanet> nPlanetList = new ArrayList<AnnualMemberPlanet>();
+//                    List<AnnualMemberPlanet> nPlanetListlocal = new ArrayList<AnnualMemberPlanet>();
+//                    nPlanetListlocal.addAll(origPlanetList);
+//                    //ArrayList<AnnualMemberPlanet> filterList = new ArrayList<AnnualMemberPlanet>();
+//                    final int count = nPlanetListlocal.size();
+//                    for (int i = 0; i < count; i++) {
+//                        final AnnualMemberPlanet item = nPlanetListlocal.get(i);
+//                        if ((mProductList.get(i).getCITY()) == item.getCITY()) {
+//
+//                            AnnualMemberPlanet cityp = mProductList.get(i);
+//                            nPlanetList.add(cityp);
+//                        }
+//                    }
+//
+//                    results.count = nPlanetList.size();
+//                    results.values = nPlanetList;
+//
+//                } else {
+//
+//                    results.count = mProductList.size();
+//                    results.values = mProductList;
+//
+//                }
+//            }
+//            return results;
+//        }
+//        //Publishes the matches found, i.e., the selected cityids
+//        @Override
+//        protected void publishResults(CharSequence constraint,
+//                                      FilterResults results) {
+//
+//            mProductList = (ArrayList<AnnualMemberPlanet>)results.values;
+//            notifyDataSetChanged();
+//        }
+//    }
 }
 
 

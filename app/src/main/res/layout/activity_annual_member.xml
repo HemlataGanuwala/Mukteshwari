@@ -16,20 +16,20 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
+
+            android:layout_weight=".96"
             android:orientation="horizontal">
 
-            <EditText
+            <Spinner
+                android:id="@+id/spinnercity"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="20dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginBottom="5dp"
-                android:background="@drawable/bg_edittext"
-                android:paddingLeft="10dp"
-                android:focusable="false"/>
-
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_edittext" />
         </LinearLayout>
 
         <LinearLayout
@@ -37,6 +37,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:layout_weight="1"
+            android:layout_marginTop="10dp"
             android:layout_marginRight="5dp"
             android:layout_marginLeft="5dp">
 
@@ -61,7 +62,7 @@
                     android:id="@+id/tvcity"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight=".75"
+                    android:layout_weight=".70"
                     android:gravity="center_vertical|center"
                     android:hint="City"
                     android:textColorHint="@color/white"
@@ -72,7 +73,7 @@
                     android:id="@+id/tvmobileno"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight=".70"
+                    android:layout_weight=".60"
                     android:gravity="center_vertical|center"
                     android:hint="Mobile No"
                     android:textColorHint="@color/white"

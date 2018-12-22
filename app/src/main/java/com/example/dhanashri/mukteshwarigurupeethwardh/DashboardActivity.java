@@ -11,13 +11,9 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.ImageButton;
 import android.widget.Spinner;
-import android.widget.SpinnerAdapter;
 import android.widget.Toast;
 
-import org.apache.http.NameValuePair;
-import org.apache.http.message.BasicNameValuePair;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
@@ -47,7 +43,7 @@ public class DashboardActivity extends AppCompatActivity {
         cardViewprogram=(CardView) findViewById(R.id.cvpragramschedule);
         cardViewanuualmember=(CardView)findViewById(R.id.cvannualmember);
         search=(Button) findViewById(R.id.btnsearch);
-        spinner=(Spinner) findViewById(R.id.spinner);
+        spinner=(Spinner) findViewById(R.id.spinnername);
 
 
         cardViewprogram.setOnClickListener(new View.OnClickListener() {
@@ -163,12 +159,10 @@ public class DashboardActivity extends AppCompatActivity {
             }
 
             // Creating adapter for spinner
-            spinnerAdapter = new ArrayAdapter<String>(DashboardActivity.this,
-                    android.R.layout.simple_spinner_item, lables);
+            spinnerAdapter = new ArrayAdapter<String>(DashboardActivity.this, android.R.layout.simple_spinner_item, lables);
 
             // Drop down layout style - list view with radio button
-            spinnerAdapter
-                    .setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+            spinnerAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 
             // attaching data adapter to spinner
             spinner.setAdapter(spinnerAdapter);
