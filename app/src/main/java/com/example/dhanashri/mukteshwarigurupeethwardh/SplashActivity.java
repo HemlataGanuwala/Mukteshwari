@@ -11,8 +11,8 @@ public class SplashActivity extends AppCompatActivity {
         setContentView(R.layout.activity_splash);
 
         final GlobalClass globalClass=(GlobalClass)getApplicationContext();
-//        globalClass.setconstr("http://gurupith.skyvisioncables.com/api/");
-        globalClass.setconstr("http://192.168.0.106:8019/api/");
+        globalClass.setconstr("http://gurupith.skyvisioncables.com/api/");
+//        globalClass.setconstr("http://192.168.0.106:8019/api/");
 
         new Handler().postDelayed(new Runnable() {
             @Override
